@@ -1,9 +1,9 @@
 {
-  "name":"CHUI-MASTER-BOT",
-  "description":"Best whatsapp bot created by 𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄",
+  "name":"KYPHER_XMD",
+  "description":"Deploy now your bot, KYPHER_XMD was developed by KYPHER himself.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/7irwqn.jpeg",
-  "repository":"https://github.com/Mselachui03/CHUI-MASTER-BOT",
+  "logo":"https://files.catbox.moe/l6e183.jpeg",
+  "repository":"https://github.com/KYPHER26/KYPHER_XMD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -13,79 +13,37 @@
       "value":".",
       "required":true
     },
-	  "ANTICALL":
-    {
-      "description":"Enter yes for your bot to reject calls",
-      "value":"yes",
-      "required":false
-    },
-         "AUTO_BIO":
-    {
-      "description":"Enter yes for your bot to auto bio",
-      "value":"no",
-      "required":false
-    },
-  "AUTO_REACT_STATUS":
-    {
-      "description":"Enter yes for your bot to auto react status",
-      "value":"yes",
-      "required":false
-    },
-	  "AUTO_SAVE_CONTACTS":
-    {
-      "description":"Enter yes for your bot to auto save contacts",
-      "value":"no",
-      "required":false
-    },
-	  "AUTO_REACT":
-    {
-      "description":"Enter yes for your bot to auto react message in all chats",
-      "value":"yes",
-      "required":false
-    },
-	  "AUDIO_REPLY":
-    {
-      "description":"Enter yes for your bot to auto reply audio in all chats",
-      "value":"yes",
-      "required":false
-    },
-	  "AUTO_REPLY":
-    {
-      "description":"Enter yes for your bot to auto reply message when you are offline",
-      "value":"yes",
-      "required":false
-    },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
       "required":false
-    }, 
-	  "AUTO_DOWNLOAD_STATUS":
+    }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
     }
     ,
-        "PM_PERMIT" :
+     "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
-    },
-       "BOT_NAME" : 
-    {
-    "description":"put A name for your bot",
-    "value":"CHUI-MASTER-BOT",
-    "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":" KYPHER_XMD",
+      "required":false
 
-    },
-       "BOT_MENU_LINKS" : 
-   {
-    "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-    "value":"https://files.catbox.moe/7irwqn.jpeg",
-    "required":false
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://files.catbox.moe/kwi2pa.jpg",
+      "required":false
        
      },
     "PUBLIC_MODE":
@@ -95,19 +53,20 @@
       "required":false
     }
 	,
-    "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "value":"HRKU-4e30b0fa-c892-471f-833b-dbdb416de2d3", 
-     "required" :false
+    "HEROKU_APY_KEY": {
+    "description": "insert your heroku api-key ",
+     "value":"",
+	"required" :true
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
+    "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
+     "value":"",
+	"required" :true
     }  
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"put your session ID, the code you received after pairing code",   
       "value":"",
       "required":true
       
@@ -117,66 +76,50 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄"
+    "value": "KYPHER"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "260774358600"
+    "value": "255760266629"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "5"
+    "value": "3"
   },
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "no"
+    "value": "yes"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"2",
+    "value":"",  
     "required": false
-	  
   },
-	    "AUTO_READ":{
-    "description":"Enter yes for auto read messages.",
-    "value":"no",
-    "required": false
-    },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "no",
-        "required": false
+    "required": false
   }
   },
 
-    "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
   "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-2x"
-    }
-  },
-  "addons": [
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	},
+
+  "addons":[
     {
-      "plan": "heroku-postgresql:essential-0"
+      "plan":"heroku-postgresql:essential-0"
     }
   ]
+	
   }
