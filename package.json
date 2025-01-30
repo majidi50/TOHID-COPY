@@ -25,16 +25,16 @@
 		"MD",
 		"baileys-md"
 	],
-	"homepage": "https://github.com/Mselachui03/MSELA-CHU-V3",
+	"homepage": "https://github.com/Mselachui03/CHUI-MASTER-BOT",
 	"author": {
 		"name": "Mselachui"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Mselachui03/MSELA-CHU-V3.git"
+		"url": "git+https://github.com/Mselachui03/CHUI-MASTER-BOT.git"
 	},
 	"bugs": {
-		"url": "https://github.com/Mselachui03/MSELA-CHU-V3/issues"
+		"url": "https://github.com/Mselachui03/CHUI-MASTER-BOT/issues"
 	},
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
