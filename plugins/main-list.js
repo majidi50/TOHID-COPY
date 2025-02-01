@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *speedtest*
 ◈ • *stoprent*
 ◈ • *uptime*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
       case 'aimenu':
       lkr=`
@@ -128,7 +128,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *gpt4*
 ◈ • *travel*
 ◈ • *why*
-╰──『 *TOHID-AI* 』─❍` //   
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //   
  break
 
  case 'logosmaker':
@@ -149,7 +149,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *pixelglitch*
 ◈ • *texteffect*
 ◈ • *writetext*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
  break
       case 'imagen':
       case 'imagenai':
@@ -166,7 +166,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *shonin*
 ◈ • *simurg*
 ◈ • *v2beta*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
  break
     case 'ownermenu':
       lkr = `
@@ -217,7 +217,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *update*
 ◈ • *var*
 ◈ • *resetprefix*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
       case 'randompic':
       lkr = `
@@ -255,7 +255,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *vietnamese*
 ◈ • *wallhp*
 ◈ • *wallml*
-╰──『 *TOHID-AI* 』─❍` //  
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //  
       break
       case 'randomvid':
       lkr = `
@@ -268,7 +268,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *tiktoknotnot*
 ◈ • *tiktokpanrika*
 ◈ • *tiktoksantuy*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'groupmenu':
       lkr = `
@@ -306,7 +306,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *toxic*
 ◈ • *delwarn*
 ◈ • *hidetag*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'downloadermenu':
     case 'dlmenu':
@@ -352,7 +352,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *ytmp3*
 ◈ • *ytmp4*
 ◈ • *ytsearch*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'economymenu':
     case 'economy':
@@ -405,7 +405,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *truth*
 ◈ • *waste*
 ◈ • *ytcomment*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
       case 'animereactions':
 case 'reactions':
@@ -436,7 +436,7 @@ lkr=`
 ◈ • *wave*
 ◈ • *wink*
 ◈ • *yeet*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'animemenu':
       lkr = `
@@ -476,7 +476,7 @@ lkr=`
 ◈ • *sasuke*
 ◈ • *toanime*
 ◈ • *waifu*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
       case 'infoanime':
       lkr = `
@@ -514,7 +514,7 @@ lkr=`
 ◈ • *anime sagiri*
 ◈ • *anime sasuke*
 ◈ • *anime waifu*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'gamemenu':
     case 'gamesmenu':
@@ -532,7 +532,7 @@ lkr=`
 ◈ • *roulette*
 ◈ • *slot*
 ◈ • *tictactoe*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'stickermenu':
       lkr = `
@@ -558,7 +558,7 @@ lkr=`
 ◈ • *trigger*
 ◈ • *ttp*
 ◈ • *ttp2*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'toolmenu':
     case 'toolsmenu':
@@ -608,7 +608,7 @@ lkr=`
 ◈ • *whatmusic*
 ◈ • *wattpad*
 ◈ • *wikipedia*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
 break
 case 'aeditor':
 case 'audioeditor':
@@ -627,7 +627,7 @@ lkr=`
 ◈ • *smooth*
 ◈ • *squirrel*
 ◈ • *tupai*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'nsfwmenu': 
       lkr = `
@@ -710,7 +710,7 @@ lkr=`
   ◈ • *lesbian*
   ◈ • *pussy*
   ◈ • *pack*
-  ╰──『 *TOHID-AI* 』─❍` //
+  ╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     case 'logomenu':
     case 'makermenu':
@@ -741,7 +741,7 @@ lkr=`
 ◈ • *stupid*
 ◈ • *tweet <comment>*
 ◈ • *ytcomment <comment>*
-╰──『 *TOHID-AI* 』─❍` //
+╰──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓* 』─❍` //
       break
     default:
       lkr = `Invalid command. Type ${usedPrefix}list to see available options.`
