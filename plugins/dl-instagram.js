@@ -68,7 +68,7 @@ const handler = async (m, { conn, args }) => {
     const fileName = mediaData.data.title ? `${mediaData.data.title}.jpg` : 'media.jpg';
     const mimetype = mediaData.data.video.length > 0 ? 'video/mp4' : 'image/jpeg';
 
-    await conn.sendFile(m.chat, mediaBuffer, fileName, '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚃𝙾𝙷𝙸𝙳-𝙰𝙸*', m, false, { mimetype });
+    await conn.sendFile(m.chat, mediaBuffer, fileName, '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓*', m, false, { mimetype });
     m.react('✅');
   } catch (error) {
     console.error('Error downloading from Instagram:', error.message, error.stack);
