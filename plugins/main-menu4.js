@@ -7,7 +7,7 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const OwnerName = process.env.OWNER_NAME || 'TOHID KHAN';
+const OwnerName = process.env.OWNER_NAME || '𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄';
 const timeZone = process.env.TIME_ZONE || 'Asia/Kolkata';
 const time = moment.tz(timeZone).format('HH')
 let wib = moment.tz(timeZone).format('HH:mm:ss')
@@ -46,7 +46,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
   let taguser = '@' + m.sender.split('@s.whatsapp.net')[0]
   let str = `
-🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
+🐯 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🐯
 
 📜 *_Quote of the day: ${quote}_* 📜
 
