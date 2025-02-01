@@ -66,11 +66,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 *≡ OWNER*
 ▢ Instagram :
-  • https://instagram.com/Tohidkhan6332
+  • https://instagram.com/mselachui
 ▢ GitHub :
-  • https://github.com/Tohidkhan6332
+  • https://github.com/Mselachui03
 ▢ YouTube : 
-  • https://youtube.com/@Tohidkhan_6332
+  • https://youtube.com/@mselachui
 ▢ credit: 
   • mr oreo
 
