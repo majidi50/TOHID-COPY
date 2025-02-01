@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const OwnerName = process.env.OWNER_NAME || 'TOHID KHAN';
-const BOTNAME = process.env.BOTNAME || 'TOHID-AI';
+const OwnerName = process.env.OWNER_NAME || '𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄';
+const BOTNAME = process.env.BOTNAME || '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓';
 const timeZone = process.env.TIME_ZONE || 'Asia/Kolkata';
 const time = moment.tz(timeZone).format('HH');
 let wib = moment.tz(timeZone).format('HH:mm:ss');
@@ -39,7 +39,7 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
+🐯 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🐯
 📋 *_Quote of the day: ${quote}_* 📋
 ◈╭──❍「 *USER INFO* 」❍
 ◈├• 🦸 *Owner:* ${OwnerName}
@@ -89,7 +89,7 @@ let str = `
 ◈├• *ownermenu*
 ◈├• *setprivacy*
 ◈╰─♪♪─★─☆──♪♪─❍
-© *TOHID-AI*
+© *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓*
 
 > 💡 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 💡
 `
