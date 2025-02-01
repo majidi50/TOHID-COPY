@@ -5,7 +5,7 @@ N:;Mselachui;;;
 FN:Msela chui
 ORG:Mselachui 
 TITLE:Owner
-item1.TEL;waid=917849917350:918930358452
+item1.TEL;waid=260774358600:260774358600
 item1.X-ABLabel:Owner
 X-WA-BIZ-DESCRIPTION:Developer of the Bot
 X-WA-BIZ-NAME:Msela Chui
