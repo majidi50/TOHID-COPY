@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '917849917350';
+const defaultOwner = '260774358600';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '917849917350' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '260774358600' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'TOHID-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '918930358452' ;  // put your number here
+global.botname = process.env.BOTNAME || '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓';
+global.pairingNumber = process.env.BOT_NUMBER || '260774358600' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['917849917350', '918930358452']
+global.allowed = ['260774358600', '260774358600']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
+global.canal = 'https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q'
 
 
 global.APIs = {
@@ -73,15 +73,15 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'TOHID-AI'
-global.author = 'Tohidkhan6332'
+global.packname = '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓'
+global.author = '𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
-global.dygp = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
-global.fgsc = 'https://github.com/Tohidkhan6332/TOHID-AI'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/mselachui'
+global.dygp = 'https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q'
+global.fgsc = 'https://github.com/Mselachui03/CHUI-MASTER-BOT'
 global.fgyt = 'https://youtube.com/@Tohidkhan_6332'
-global.fgpyp = 'https://GitHub.com/Tohidkhan6332'
-global.fglog = 'https://i.imgur.com/WnKjrJt.jpeg'
+global.fgpyp = 'https://GitHub.com/mselachui'
+global.fglog = 'https://i.imgur.com/xrtdtOn.jpeg'
 global.thumb = fs.readFileSync('./assets/tohid.jpg')
 
 global.wait = '⏳'
