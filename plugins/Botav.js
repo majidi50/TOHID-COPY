@@ -2,9 +2,9 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[m.sender];
   let name = conn.getName(m.sender);
   let taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-  let av = `./assets/${pickRandom(['tohid', 'tohid2', 'tohid3'])}.mp3`;
+  let av = `./assets/${pickRandom(['msela', 'msela2', 'msela3'])}.mp3`;
 
-  conn.sendButton(m.chat, `*HELLO FROM BOT TOHID-AI*\n        Morning or Evening\n\n @${m.sender.split('@')[0]}     \n\n*You called me what is your problem bro?* `.trim(), igfg, null, [['OWNER HELP', '.grp'], ['GET SC', '.repo']], m, { mentions: [m.sender] });
+  conn.sendButton(m.chat, `*HELLO FROM BOT 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓*\n        Morning or Evening\n\n @${m.sender.split('@')[0]}     \n\n*You called me what is your problem bro?* `.trim(), igfg, null, [['OWNER HELP', '.grp'], ['GET SC', '.repo']], m, { mentions: [m.sender] });
   conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true });
 }
 
