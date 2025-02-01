@@ -52,7 +52,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
         const uploadDate = response.upload || 'Unknown Date';
         const thumbnail = response.thumbnail || '';
         
-        const caption = `*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚃𝙾𝙷𝙸𝙳-𝙰𝙸*\n\n` +
+        const caption = `*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓*\n\n` +
                         `*Title:* ${title}\n` +
                         `*Author:* ${author}\n` +
                         `*Duration:* ${duration}\n` +
