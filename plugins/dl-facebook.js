@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix, args, command, text }) => {
     // If a video URL is found, send the video
     m.react('✅'); // Indicating that the video is ready to be sent
 
-    const cap = 'Here is the video you requested:';
+    const cap = 'video by 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓:';
     await conn.sendFile(m.chat, videoURL, 'video.mp4', cap, m);
 
   } catch (error) {
