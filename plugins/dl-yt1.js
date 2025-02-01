@@ -71,7 +71,7 @@ const handler = async (m, { args, conn, usedprefix }) => {
 
         const title = response.data.title || 'audio';
         const safeTitle = title.substring(0, 4).replace(/[<>:"/\\|?*]/g, '_'); // Get the first four characters
-        const caption = `POWERED BY TOHID-AI`;
+        const caption = `POWERED BY 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓`;
 
         const mediaResponse = await fetchWithRetry(audioUrl, {
             headers: {
