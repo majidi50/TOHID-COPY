@@ -655,7 +655,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ • *ytcomment <comment>*
 ╰───★─☆─♪♪─❍
 
-💡 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 💡
+🐯 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 🐯
 `
 
   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
