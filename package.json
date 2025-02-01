@@ -1,5 +1,5 @@
 {
-    "name": "tohid",
+    "name": "mselachui",
     "version": "4.0.0",
     "description": "Advanced AI",
     "main": "index.js",
@@ -28,16 +28,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Tohidkhan6332/TOHID-AI",
+    "homepage": "https://github.com/Mselachui03/CHUI-MASTER-BOT",
     "author": {
-        "name": "Tohidkhan6332"
+        "name": "Mselachui"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Tohidkhan6332/TOHID-AI.git"
+        "url": "git+https://github.com/Mselachui03/CHUI-MASTER-BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/Tohidkhan6332/TOHID-AI/issues"
+        "url": "https://github.com/Mselachui03/CHUI-MASTER-BOT/issues"
     },
     "license": "Apache-2.0",
     "dependencies": {
@@ -123,11 +123,11 @@
     },
     "contributors": [
     {
-      "name": "Tohid Khan",
+      "name": "Msela chui",
       "role": "Lead Developer"
     },
     {
-      "name": "Tohidkhan6332",
+      "name": "Mselachui",
       "role": "Maintainer"
     }
   ]
