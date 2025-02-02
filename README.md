@@ -51,8 +51,8 @@
 ### DEPLOY ON HEROKU
 
 1. Now deploy.
-    <br>
-    <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/chui-private' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+    </a></p>
+- <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/CHUI-MASTER-BOT' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
 
     <h2 align="center"> ⚠️ NOTE  </h2>
 ## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
