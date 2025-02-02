@@ -79,8 +79,8 @@ global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/mselachui'
 global.dygp = 'https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q'
 global.fgsc = 'https://github.com/Mselachui03/CHUI-MASTER-BOT'
-global.fgyt = 'https://youtube.com/@Tohidkhan_6332'
-global.fgpyp = 'https://GitHub.com/mselachui'
+global.fgyt = 'https://youtube.com/@mselachui'
+global.fgpyp = 'https://GitHub.com/Mselachui03'
 global.fglog = 'https://i.imgur.com/xrtdtOn.jpeg'
 global.thumb = fs.readFileSync('./assets/tohid.jpg')
 
