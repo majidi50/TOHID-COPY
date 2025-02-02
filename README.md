@@ -1,20 +1,20 @@
-# MSELA-CHUI-V3
+# 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ MSELA_+CHUI-+V3★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MSELA+CHUI;RELEASED+DATE+03%2Oct10%2F2024." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ MSELA_+CHUI-+BOT★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MSELA+CHUI;RELEASED+DATE+03%2Ofeb02%2F2025." alt="Typing SVG" /></a>
  </p>
 <p align="center">
-<img src="https://files.catbox.moe/0zt0b2.jpg"/> 
+<img src="𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓"/> 
 <p align="center"><img src="https://profile-counter.glitch.me/{Mselachui03}/count.svg" alt="Mselachui03 :: Visitor's Count" /></p>
 <p align="center">
 <a href="https://github.com/Mselachui03/followers"><img title="Followers" src="https://img.shields.io/github/followers/Mselachui03?color=red&style=flat-square"></a>
-<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Mselachui03/MSELA-CHUI-V3?color=blue&style=flat-square"></a>
-<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Mselachui03/MSELA-CHUI-V3?color=red&style=flat-square"></a>
-<a href="https://github.com/Mselachui03/MSELA_CHUI-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Mselachui03/MSELA-CHUI-V3?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/"><img title="Size" src="https://img.shields.io/github/repo-size/Mselachui03/MSELA-CHUI-V3?style=flat-square&color=green"></a>
+<a href="https://github.com/Mselachui03/CHUI-MASTER-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Mselachui03/CHUI-MASTER-BOT?color=blue&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/CHUI-MASTER-BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Mselachui03/CHUI-MASTER-BOT?color=red&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA_CHUI-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Mselachui03/CHUI-MASTER-BOT?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/CHUI-MASTER-BOT/"><img title="Size" src="https://img.shields.io/github/repo-size/Mselachui03/MSELA-CHUI-V3?style=flat-square&color=green"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMselachui03%2Msela_Chui-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/Mselachui03/CHUI-MASTER-BOT/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
@@ -37,7 +37,7 @@
 
 ### 1. FORK THIS REPO
 
-<a href='https://github.com/Mselachui03/MSELA-CHUI-V3/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/Mselachui03/CHUI-MASTER-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### 2. GET SESSION ID HERE
 
@@ -55,7 +55,7 @@
     <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/chui-private' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
     <h2 align="center"> ⚠️ NOTE  </h2>
-## MSELA-CHUI-V3 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
+## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
 ## ```Connect With Me```
 <img src="http://4.bp.blogspot.com/-XFYyg7bmXe0/UIU9Lt2jaNI/AAAAAAAABw8/UgxWDUoBkaw/s1600/tumblr_mbi70xxizM1r922azo1_500_large.gif">
