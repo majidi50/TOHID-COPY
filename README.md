@@ -33,7 +33,7 @@
 
 
 
- ## MSELA-CHUI-V3 Deployment Methods
+ ## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 Deployment Methods
 
 ### 1. FORK THIS REPO
 
@@ -75,9 +75,9 @@
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
 
-- *MSELA-CHUI-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
-- *Use MSELA-CHUI-V3 at your own risk by keeping this warning in mind.*
+- *Use 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 at your own risk by keeping this warning in mind.*
   
   #### ```MSELA CHUI PROFILE VIEWS 🐯```
 ![Visitor Count](https://profile-counter.glitch.me/Mselachui03/count.svg)
@@ -94,3 +94,5 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+
+ ## THIS IS 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓
