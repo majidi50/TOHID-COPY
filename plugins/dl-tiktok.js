@@ -45,7 +45,7 @@ const handler = async (message, { conn, args }) => {
     const mediaBuffer = Buffer.from(arrayBuffer);
 
     // Send the video file to the user
-    await conn.sendFile(message.chat, mediaBuffer, 'tiktok.mp4', '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝚃𝙾𝙷𝙸𝙳-𝙰𝙸*', message, false, { mimetype: 'video/mp4' });
+    await conn.sendFile(message.chat, mediaBuffer, 'tiktok.mp4', '*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 © 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓*', message, false, { mimetype: 'video/mp4' });
 
     // React with a success emoji
     message.react('✅');
