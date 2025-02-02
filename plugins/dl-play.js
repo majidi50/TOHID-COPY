@@ -150,7 +150,7 @@ handler.before = async (m, { conn }) => {
 
 handler.help = ['play'];
 handler.tags = ['downloader'];
-handler.command = ['play2', 'song2', 'spotify', 'playsong', 'ytplay'];
+handler.command = ['play2', 'song', 'spotify', 'playsong', 'ytplay'];
 
 export default handler;
 
