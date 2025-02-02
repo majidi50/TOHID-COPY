@@ -2,9 +2,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
   var vn = 'https://cdn.jsdelivr.net/gh/Lazack28/Lazack-Device@main/jusorts/lazack.mp3'
-  let url = 'https://github.com/Mselachui03/MSELA-CHUI-V3'
+  let url = 'https://github.com/Mselachui03/CHUI-MASTER-BOT'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.imgur.com/JeVEiQY.jpeg'
+  let img = 'https://i.imgur.com/VX4bhj5.jpeg'
   let con = {
     key: {
       fromMe: false,
@@ -30,8 +30,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'MSELA-CHUI-V3',
-        body: 'mselachuu md',
+        title: '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓',
+        body: 'mselachui md',
         thumbnailUrl: img,
         sourceUrl: 'https://chat.whatsapp.com/Bqb6oEUxAneAqxBUBfNdLr',
         mediaType: 1,
