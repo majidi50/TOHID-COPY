@@ -1,52 +1,51 @@
-import ytSearch from "yt-search";
-import { youtube } from "btch-downloader";
+// XPLOADER BOT by Tylor
 
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) return m.reply(`Enter the title or YouTube link!\nExample: *${usedPrefix + command} Faded Alan Walker*`);
+const { y2save } = require('../../lib/y2save.js');
+const yts = require('yt-search');
 
-  await m.reply("🔄 Please wait while lazack is searching the audio...");
-  try {
-    const search = await ytSearch(text); // Search for the video
-    const video = search.videos[0];
+module.exports = {
+  command: ['play', 'song'],
+  operate: async ({ Xploader, m, reply, text, botname }) => {
+    if (!text) return reply('*Please provide a song name!*');
 
-    if (!video) return m.reply("❌ No results found! Please try again with a different query.");
-    if (video.seconds >= 3600) return m.reply("❌ Video duration exceeds 1 hour. Please choose a shorter video!");
+    const query = text;
 
-    // Attempt to get the audio URL
-    let audioUrl;
+    const fetchDownloadUrl = async (videoUrl) => {
+      try {
+        return await y2save.main(videoUrl, 'mp3', '128kbps');
+      } catch (error) {
+        console.error('Error with y2save:', error.message);
+        throw error;
+      }
+    };
+
     try {
-      audioUrl = await youtube(video.url);
-    } catch (error) {
-      return m.reply("⚠️ Failed to fetch audio. Please try again later.");
-    }
+      const search = await yts(query);
+      if (!search || search.all.length === 0) return reply('*The song you are looking for was not found.*');
 
-    // Send audio file
-    await conn.sendMessage(
-      m.chat,
-      {
-        audio: { url: audioUrl.mp3 },
-        mimetype: "audio/mpeg",
+      const video = search.all[0];
+      const downloadUrl = await fetchDownloadUrl(video.url);
+      console.log('Final download URL:', downloadUrl);
+
+      await Xploader.sendMessage(m.chat, {
+        audio: { url: downloadUrl },
+        mimetype: 'audio/mpeg',
+        fileName: `${video.title}.mp3`,
         contextInfo: {
           externalAdReply: {
-            title: video.title,
-            body: "",
-            thumbnailUrl: video.image,
-            sourceUrl: video.url,
-            mediaType: 1,
-            showAdAttribution: true,
-            renderLargerThumbnail: true,
-          },
-        },
-      },
-      { quoted: m }
-    );
-  } catch (error) {
-    m.reply(`❌ Error: ${error.message}`);
+            title: botname,
+            body: `${video.title}`,
+            thumbnailUrl: `${video.thumbnail}`,
+            sourceUrl: `${video.url}`,
+            mediaType: 2,
+            mediaUrl: `${video.thumbnail}`
+          }
+        }
+      }, { quoted: m });
+
+    } catch (error) {
+      console.error('Error:', error);
+      Xploader.sendMessage(m.chat, { text: 'An error occurred while trying to download the audio.' }, { quoted: m });
+    }
   }
 };
-
-handler.help = ["play"];
-handler.tags = ["downloader"];
-handler.command = /^play$/i;
-
-export default handler;
