@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender);
-  let img = 'https://i.imgur.com/M1BzE37.jpeg';
+  let img = 'https://i.imgur.com/xrtdtOn.jpeg';
   let con = {
     key: {
       fromMe: false,
@@ -17,14 +17,14 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   };
 
   let messageContent = {
-    text: '𝗧𝗢𝗛𝗜𝗗-𝗔𝗜 𝗜𝗦 𝗥𝗨𝗡𝗡𝗜𝗡𝗚', // Text content in case a message body is needed
+    text: '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 𝗜𝗦 𝗥𝗨𝗡𝗡𝗜𝗡𝗚', // Text content in case a message body is needed
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '© 𝚃𝙾𝙷𝙸𝙳 𝙺𝙷𝙰𝙽',
-        body: '© Tohidkhan6332',
+        title: '© 𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄',
+        body: '© Mselachui',
         thumbnailUrl: img,
-        sourceUrl: 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T',
+        sourceUrl: 'https://chat.whatsapp.com/Bqb6oEUxAneAqxBUBfNdLr',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
