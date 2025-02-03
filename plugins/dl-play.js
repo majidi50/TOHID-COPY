@@ -30,7 +30,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
   conn.ultra = conn.ultra ? conn.ultra : {};
   await m.react('🎶');
   const result = await searchAndDownloadMusic(text);
-  const infoText = `✦ ──『 *TOHID-AI PLAYER* 』── ⚝ \n\n [ ⭐ Reply the number of the desired search result to get the Audio]. \n\n`;
+  const infoText = `✦ ──『 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 PLAYER* 』── ⚝ \n\n [ 🐯 Reply the number of the desired search result to get the Audio]. \n\n`;
 
   const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
@@ -150,7 +150,7 @@ handler.before = async (m, { conn }) => {
 
 handler.help = ['play'];
 handler.tags = ['downloader'];
-handler.command = ['play', 'song', 'spotify', 'playsong', 'ytplay'];
+handler.command = ['play2', 'song', 'spotify', 'playsong', 'ytplay'];
 
 export default handler;
 
