@@ -1,10 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
-  let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/Lazack28/Lazack-Device@main/jusorts/lazack.mp3'
-  let url = 'https://github.com/Mselachui03/CHUI-MASTER-BOT'
-  let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.imgur.com/VX4bhj5.jpeg'
+  let name = m.pushName || conn.getName(m.sender);
+  let img = 'https://i.imgur.com/M1BzE37.jpeg';
   let con = {
     key: {
       fromMe: false,
@@ -17,34 +14,29 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
-  }
-  let doc = {
-    audio: {
-      url: vn,
-    },
-    mimetype: 'audio/mpeg',
-    ptt: true,
-    waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: 'mselachui',
+  };
 
+  let messageContent = {
+    text: '𝗧𝗢𝗛𝗜𝗗-𝗔𝗜 𝗜𝗦 𝗥𝗨𝗡𝗡𝗜𝗡𝗚', // Text content in case a message body is needed
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓',
-        body: 'mselachui md',
+        title: '© 𝚃𝙾𝙷𝙸𝙳 𝙺𝙷𝙰𝙽',
+        body: '© Tohidkhan6332',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/Bqb6oEUxAneAqxBUBfNdLr',
+        sourceUrl: 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
     },
-  }
+  };
 
-  await conn.sendMessage(m.chat, doc, { quoted: con })
-}
+  // Send the message with the external ad reply
+  await conn.sendMessage(m.chat, messageContent, { quoted: con });
+};
 
-handler.help = ['alive']
-handler.tags = ['main']
-handler.command = /^(alive)$/i
+handler.help = ['alive'];
+handler.tags = ['main'];
+handler.command = /^(alive)$/i;
 
-export default handler
+export default handler;
