@@ -40,4 +40,4 @@ I'm sorry *@${m.sender.split('@')[0]}*, you will be removed from the group.`,
     }
   }
   return true;
-        }
+                                         }
