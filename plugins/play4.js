@@ -37,7 +37,7 @@ let handler = async (m, { conn, text, botname }) => {
                 },
             { quoted: m }
         );
-        await m.reply ("[❗] Please wait, the song is being downloaded...");
+        await m.reply ("🐯 Please wait while 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 is searching the audio...");
 
         await conn.sendMessage(m.chat, {
             audio: { url: audioUrl },
@@ -63,6 +63,6 @@ return m.reply("Failed to download the song, please try again later");
 
 handler.help = ["play4 <song>"];
 handler.tags = ["music"];
-handler.command = /^(p|s)$/i;
+handler.command = /^(play|chui)$/i;
 
 export default handler;
