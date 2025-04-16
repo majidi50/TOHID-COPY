@@ -658,6 +658,29 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 🐯 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 🐯
 `
 
+  // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
+    
+       await conn.sendMessage(
+        m.chat,
+        {
+          image: { url: pp }, // `pp` is the image URL or buffer
+          caption: str,       // `str` is your caption
+          contextInfo: {
+            mentionedJid: [m.sender], // Mentioning the sender
+            isForwarded: true,
+            forwardingScore: 999,
+            forwardedNewsletterMessageInfo: {
+              newsletterJid: '120363305273910720@newsletter', // Replace with actual channel JID
+              newsletterName: 'CHUI BOTZ', // Replace with actual channel name
+              serverMessageId: -1,
+            },
+          },
+        },
+        { quoted: m }
+      );
+      
+  
+  
   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
   m.react(done)
 }
