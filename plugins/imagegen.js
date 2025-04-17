@@ -62,7 +62,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       await conn.sendMessage(
         m.chat,
         {
-          text: `✨ *Search Completed!*\n🔗 Support us: https://github.com/Mselachui03/CHUI-MASTER-BOT`,
+          text: `🐯 *Search Completed!*\n🔗 Support us: https://github.com/Mselachui03/CHUI-MASTER-BOT`,
           contextInfo: {
             externalAdReply: {
               title: '🐯 Powered by MSELACHUI TEACH 🐯!',
