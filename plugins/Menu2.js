@@ -100,7 +100,25 @@ let str = `
     
 
 
-   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, canal)
+  // conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, canal)
+  await conn.sendMessage(
+    m.chat,
+    {
+      image: { url: pp }, // `pp` is the image URL or buffer
+      caption: str,       // `str` is your caption
+      contextInfo: {
+        mentionedJid: [m.sender], // Mentioning the sender
+        isForwarded: true,
+        forwardingScore: 999,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363305273910720@newsletter', // Replace with actual channel JID
+          newsletterName: 'CHUI BOTZ', // Replace with actual channel name
+          serverMessageId: -1,
+        },
+      },
+    },
+    { quoted: m }
+  );
     m.react(done)
 
 }
