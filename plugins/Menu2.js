@@ -119,7 +119,7 @@ let str = `
     },
     { quoted: m }
   );
-    m.react(done)
+   // m.react(done)
 
 }
 handler.help = ['main']

@@ -682,7 +682,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   
   
  // conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
-  m.react(done)
+ // m.react(done)
 }
 handler.help = ['main']
 handler.tags = ['group']
