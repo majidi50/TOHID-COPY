@@ -52,7 +52,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
           m.chat,
           {
             image: { url },
-            caption: `🔹 *Search Term:* ${text}\n🔹 *Source:* Internet`,
+            caption: `🐯 *Search Term:* ${text}\n🐯 *Source:* Internet`,
           },
           { quoted: botContact }
         );
