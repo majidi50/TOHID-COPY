@@ -3,7 +3,7 @@ import gis from 'g-i-s';
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
     return m.reply(
-      `📌 *Usage:* ${usedPrefix}${command} <search term>\n\n🔎 Please provide a search term for the images.`
+      `📌 *Usage:* ${usedPrefix}${command} <search term>\n\n🐯 Please provide a search term for the images.`
     );
   }
 
@@ -18,15 +18,15 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 
   // Sponsor thumbnail (Optional)
-  const sponsorThumbnail = 'https://home.lazackorganisation.my.id/img/img1.png'; 
+  const sponsorThumbnail = 'https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q'; 
 
   // Fake contact message (Optional)
   let botContact = {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
       contactMessage: {
-        displayName: `Lazack Device`,
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Lazack device;;;\nFN:Lazack device\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+        displayName: `Mselachui teach 🐯`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Mselachui teach;;;\nFN:Mselachui teach\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
   };
@@ -62,13 +62,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       await conn.sendMessage(
         m.chat,
         {
-          text: `✨ *Search Completed!*\n🔗 Support us: https://github.com/Lazack28/Lazack-Device`,
+          text: `✨ *Search Completed!*\n🔗 Support us: https://github.com/Mselachui03/CHUI-MASTER-BOT`,
           contextInfo: {
             externalAdReply: {
-              title: '🔍 Powered by Team Lazack28!',
+              title: '🐯 Powered by MSELACHUI TEACH 🐯!',
               body: 'Explore, Innovate, Inspire.',
               thumbnailUrl: sponsorThumbnail,
-              sourceUrl: 'https://github.com/Lazack28/Lazack-Device',
+              sourceUrl: 'https://github.com/Mselachui03/CHUI-MASTER-BOT',
               mediaType: 1,
               renderLargerThumbnail: true,
             },
