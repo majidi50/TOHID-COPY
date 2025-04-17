@@ -86,7 +86,7 @@ const handler = async (m, { conn, text }) => {
 
 handler.help = ['aiimage <model> <prompt>'];
 
-handler.tags = ['image,img'];
+handler.tags = [''];
 
 handler.command = /^(aiimage)$/i;
 
