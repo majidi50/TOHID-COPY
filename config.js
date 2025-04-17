@@ -82,7 +82,7 @@ global.fgsc = 'https://github.com/Mselachui03/CHUI-MASTER-BOT'
 global.fgyt = 'https://youtube.com/@mselachui'
 global.fgpyp = 'https://GitHub.com/Mselachui03'
 global.fglog = 'https://i.imgur.com/xrtdtOn.jpeg'
-global.thumb = fs.readFileSync('./assets/tohid.jpg')
+global.thumb = fs.readFileSync('./assets/msela.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'

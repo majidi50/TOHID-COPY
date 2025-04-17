@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
         ? conn.user.jid
         : m.sender
   let name = conn.getName(who)
-  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './assets/tohid.jpg')
+  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './assets/msela.jpg')
   conn.sendFile(
     m.chat,
     global.API('https://some-random-api.com', '/canvas/overlay/wasted', {
