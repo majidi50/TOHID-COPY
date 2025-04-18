@@ -48,6 +48,12 @@
 <a href="https://chui-session.onrender.com"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
 
 
+### 🐯 **Generate Pairing Code**
+
+<a href="https://session-tg08.onrender.com/" target="_blank"><img alt='PAIRING' src='https://img.shields.io/badge/GET%20CREDS.JSON-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
+
+
 ### DEPLOY ON HEROKU
 
 1. Now deploy.
