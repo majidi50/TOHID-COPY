@@ -20,7 +20,7 @@ WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.ibb.co/j9G5tmNM/shaban-md.jpg",
 // add custom menu and mention reply image url   
@@ -50,7 +50,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
