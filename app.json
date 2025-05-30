@@ -1,8 +1,8 @@
 {
-  "name": "𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-TEACH",
-  "logo": "https://files.catbox.moe/15vem5.jpg",
-  "keywords": ["𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓"],
+  "name": "MICKEY-MD",
+  "description": "Javascript WhatsApp bot made by Mickey",
+  "logo": "https://files.catbox.moe/g3sq1a.png",
+  "keywords": ["MICKEY-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓"
+      "value": "MICKEY-MD"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓 🐯*"
+      "value": "*SEEN YOUR STATUS BY MICKEY-MD 🇮🇳*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Mr 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-TEACH"
+      "value": "Mr Mickey"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "260774358600"
+      "value": "255612130873"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓"
+      "value": "MICKEY-MD"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/15vem5.jpg"
+      "value": "https://files.catbox.moe/g3sq1a.png"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-TEACH*"
+      "value": "*©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 MICKEY MD*"
     },
 
       "DELETE_LINKS": {
@@ -175,7 +175,7 @@
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🇹🇿,🐯"
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🇮🇳"
     }, 
     
     "ANTI_DEL_PATH": {
