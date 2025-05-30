@@ -7,7 +7,7 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "🧾",
+    react: "🐯",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
@@ -34,12 +34,12 @@ cmd({
 ┃◈├•➊⓿ 🏫 *Main Menu*
 ┃◈╰─┬─★─☆──♪♪─❍
 ┃◈╭─┴────────────●●►
-┃◈├ ✌𝓜𝓡 𝓜𝓘𝓒𝓚𝓔𝓨✌ 
+┃◈├ 🐯𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH🐯 
 ┃◈╰─┬────────────●●►
 ┃◈╭─┴────────────●●►
 ┃◈├•ʀᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ sᴇʟᴇᴄᴛ
 ┃◈╰──────────────●●►
-✩░▒▓▆▅▃▂▁𝐌𝐈𝐂𝐊𝐄𝐘▁▂▃▅▆▓▒░✩〕
+✩░▒▓▆▅▃▂▁𝐌𝐒𝐄𝐋𝐀▁▂▃▅▆▓▒░✩〕
 > ${config.DESCRIPTION}`;
 
         const contextInfo = {
@@ -47,7 +47,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363314875614529@newsletter',
+                newsletterJid: '120363305273910720@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -59,7 +59,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/4ZSYvPTq/lordali.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/lxudmd.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
