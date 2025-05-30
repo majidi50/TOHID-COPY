@@ -7,7 +7,7 @@ cmd({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
-    react: "🧾",
+    react: "🐯",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
@@ -30,7 +30,7 @@ cmd({
 ┃◈├•➏  🎎 *Anime Menu*
 ┃◈├•➐  ♻️ *Convert Menu*
 ┃◈├•➑  📌 *Other Menu*
-┃◈├•➒  💔 *Reactions Menu*
+┃◈├•➒  😎 *Reactions Menu*
 ┃◈├•➊⓿ 🏫 *Main Menu*
 ┃◈╰─┬─★─☆──♪♪─❍
 ┃◈╭─┴────────────●●►
@@ -50,7 +50,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363207624903731@newsletter',
+                newsletterJid: '120363305273910720@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -62,7 +62,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/4ZSYvPTq/lordali.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/15vem5.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -430,7 +430,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/4ZSYvPTq/lordali.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/15vem5.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
