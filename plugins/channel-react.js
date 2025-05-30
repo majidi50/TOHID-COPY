@@ -11,7 +11,7 @@ const stylizedChars = {
 };
 
 cmd({
-    pattern: "chr",
+    pattern: "channel",
     alias: ["creact"],
     react: "🔤",
     desc: "React to channel messages with stylized text",
@@ -22,8 +22,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         if (!isCreator) return reply("❌ Owner only command");
-        if (!q) return reply(`Usage:\n${command} https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T hello`);
-
+        if (!q) return reply(`Usage:\n${command} https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q`);
         const [link, ...textParts] = q.split(' ');
         if (!link.includes("whatsapp.com/channel/")) return reply("Invalid channel link format");
         
@@ -45,12 +44,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const channelMeta = await conn.newsletterMetadata("invite", channelId);
         await conn.newsletterReactMessage(channelMeta.id, messageId, emoji);
 
-        return reply(`╭━━━〔 *TOHID_MD* 〕━━━┈⊷
+        return reply(`╭━━━〔 *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-BOT* 〕━━━┈⊷
 ┃▸ *Success!* Reaction sent
 ┃▸ *Channel:* ${channelMeta.name}
 ┃▸ *Reaction:* ${emoji}
 ╰────────────────┈⊷
-> *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚃𝙾𝙷𝙸𝙳_𝙼𝙳*`);
+> *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-BO𝐓*`);
     } catch (e) {
         console.error(e);
         reply(`❎ Error: ${e.message || "Failed to send reaction"}`);
