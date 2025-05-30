@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Mickeymozy/MICKEY-MD';
+    const githubRepoURL = 'https://github.com/Mselachui03/MSELA-CHUI-BOT';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -172,15 +172,15 @@ ${repoData.description || 'No description provided'}
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/HpGFPCTV/lordali.jpg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/15vem5.jpg' },
             caption: selectedStyle,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363207624903731@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖',
+                    newsletterJid: '120363305273910720@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓',
                     serverMessageId: 143
                 }
             }
