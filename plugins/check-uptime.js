@@ -43,7 +43,7 @@ ${config.DESCRIPTION}`;
 
         // Style 4: Code Style
         const style4 = `┌──────────────────────┐
-│  ⚡ UPTIME STATUS ⚡  │
+│  🐯 UPTIME STATUS 🐯  │
 ├──────────────────────┤
 │ • Time: ${uptime}
 │ • Started: ${startTime.toLocaleString()}
@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363207624903731@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖',
+                    newsletterJid: '120363305273910720@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓EACH 🐯',
                     serverMessageId: 143
                 }
             }
