@@ -1,6 +1,6 @@
-name: msela-chui-bot
+name: tohid_md
 services:
-  - name: msela-chui-bot-service
+  - name: tohid_md-service
     type: web
     ports:
       - 5000
