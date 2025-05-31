@@ -5,7 +5,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ MSELA_+CHUI-+BOT★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MSELA+CHUI;RELEASED+DATE+03%20feb02%2F2025." alt="Typing SVG" /></a>
  </p>
 <p align="center">
-<img src="https://i.imgur.com/xrtdtOn.jpeg"/> 
+<img src="https://files.catbox.moe/15vem5.jpg"/> 
 <p align="center"><img src="https://profile-counter.glitch.me/{Mselachui03}/count.svg" alt="Mselachui03 :: Visitor's Count" /></p>
 <p align="center">
 <a href="https://github.com/Mselachui03/followers"><img title="Followers" src="https://img.shields.io/github/followers/Mselachui03?color=red&style=flat-square"></a>
@@ -33,11 +33,11 @@
 
 
 
- ## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 Deployment Methods
+ ## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓 Deployment Methods
 
 ### 1. FORK THIS REPO
 
-<a href='https://github.com/Mselachui03/CHUI-MASTER-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/Mselachui03/MSELA-CHUI-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### 2. GET SESSION ID HERE
 
@@ -58,7 +58,7 @@
 
 1. Now deploy.
     </a></p>
-- <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/CHUI-MASTER-BOT' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
+- <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/MSELA-CHUI-BOT' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
 
     <h2 align="center"> ⚠️ NOTE  </h2>
 ## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
