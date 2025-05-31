@@ -72,13 +72,13 @@ cmd({
                 `*├▢ COUNT : ${warningCount}*\n` +
                 `*├▢ REASON : LINK SENDING*\n` +
                 `*├▢ WARN LIMIT : 3*\n` +
-                `*╰─────⬡ *MICKEY-MD* ⬡────*`,
+                `*╰─────⬡ *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓* ⬡────*`,
           mentions: [sender]
         });
       } else {
         // Remove user if they exceed warning limit
         await conn.sendMessage(from, {
-          text: `@${sender.split('@')[0]} *𝓜𝓘𝓒𝓚𝓔𝓨-𝓜𝓓 HAS BEEN REMOVED - WARN LIMIT EXCEEDED!*`,
+          text: `@${sender.split('@')[0]} *𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐁𝐎𝐓 HAS BEEN REMOVED - WARN LIMIT EXCEEDED!*`,
           mentions: [sender]
         });
         await conn.groupParticipantsUpdate(from, [sender], "remove");
