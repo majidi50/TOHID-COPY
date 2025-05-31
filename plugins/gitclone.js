@@ -55,8 +55,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363207624903731@newsletter',
-          newsletterName: '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖',
+          newsletterJid: '120363305273910720@newsletter',
+          newsletterName: '𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐓𝐄𝐂𝐇 🐯',
           serverMessageId: 143
         }
       }
