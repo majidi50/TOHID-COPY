@@ -58,7 +58,7 @@
 
 1. Now deploy.
     </a></p>
-- <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/MSELA-CHUI-BOT' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
+- <a href='https://dashboard.heroku.com/new?template=https://github.com/majidi50/TOHID-COPY' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
 
     <h2 align="center"> ⚠️ NOTE  </h2>
 ## 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
