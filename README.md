@@ -109,3 +109,13 @@ href="https://github.com/majidi50/TOHID/Deploy">
 
 
  ## THIS IS 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓
+
+
+
+
+
+
+href="https://github.com/majidi50/TOHID-COPY">
+    <img title="DEPLOY QUANTUM BOT" src="https://img.shields.io/badge/ðŸš€_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
+  </a>
+</p>
